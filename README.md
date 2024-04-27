@@ -10,7 +10,8 @@ A aplicação, que segue o padrão REST, permite a execução das principais fun
 
 1. Clone o repositório
 
-`git clone https://github.com/jessifagundes/criacao-api-banco-digital`
+git clone [https://github.com/jessifagundes/criacao-api-banco-digital](https://github.com/jessifagundes/criacao-api-banco-digital)
+
 
 2. Instale as bibliotecas
 
