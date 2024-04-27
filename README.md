@@ -4,7 +4,10 @@ Neste projeto desenvolvi uma API para Banco Digital, utilizando o padrão REST.
 
 Através da aplicação é possível: 
 
-- Criar conta bancária
+### Criar conta bancária:
+
+`http://localhost:3000/contas`
+  
 - Listar contas bancárias
 - Atualizar os dados do usuário da conta bancária
 - Excluir uma conta bancária
