@@ -54,6 +54,7 @@ No body da requisição deverão ser informados nome, cpf, data de nascimento, t
 }
 ```
 
+
 #### 3. Atualizar os dados do usuário da conta bancária
 
 Deverá ser passado como parâmetro de rota o número da conta cujo usuário deverá ser atualizado.
@@ -61,11 +62,13 @@ As informações a serem atualizadas deverão ser passadas no body da requisiç�
 
 `http://localhost:3000/contas/2/usuario`
 
+
 #### 4. Excluir uma conta bancária
 
 Para exclusão da conta, também deverá ser informado o número da conta a ser excluída, como parâmetro de rota.
 
 `http://localhost:3000/contas/2/usuario`
+
 
 #### 5. Depositar em uma conta bancária
 
@@ -80,6 +83,7 @@ No body da requisição deverão ser informados o número da conta e o valor, no
 }
 ```
 
+
 #### 6. Sacar de uma conta bancária
 
 `http://localhost:3000/contas/transacoes/sacar`
@@ -93,6 +97,7 @@ No body da requisição deverão ser informados o número da conta, o valor e a 
     	"senha": "123456"
 }
 ```
+
 
 #### 7. Transferir valores entre contas bancárias
 
@@ -109,11 +114,13 @@ No body da requisição deverão ser informados o número das contas de origem e
 }
 ```
 
+
 #### 8. Consultar saldo da conta bancária
 
 Para consultar o saldo de determinada conta, deverá ser informado o número da respectiva conta e a senha como parâmetro de consulta:
 
 `http://localhost:3000/contas/saldo?numero_conta=1&senha=12345`
+
  
 #### 9. Emitir extrato bancário
 
