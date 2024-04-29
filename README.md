@@ -13,17 +13,12 @@ A aplicação, que segue o padrão REST, permite a execução das principais fun
 git clone [https://github.com/jessifagundes/criacao-api-banco-digital](https://github.com/jessifagundes/criacao-api-banco-digital)
 
 
-2. Instale as bibliotecas
+2. Execute o servidor
 
-`npm install express`
+`npm install`
 
-`npm install -D nodemon`
+`npm dev`
 
-`npm install date-fns`
-
-3. Execute o servidor
-
-`npm run`
 
 ## Projeto em execução
 
