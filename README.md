@@ -68,7 +68,7 @@ Para exclusão da conta, também deverá ser informado o número da conta a ser 
 
 #### 5. Depositar em uma conta bancária
 
-`http://localhost:3000/contas/transacoes/depositar`
+`http://localhost:3000/transacoes/depositar`
 
 No body da requisição deverão ser informados o número da conta e o valor, no formato JSON, conforme exemplo abaixo:
 
@@ -82,7 +82,7 @@ No body da requisição deverão ser informados o número da conta e o valor, no
 
 #### 6. Sacar de uma conta bancária
 
-`http://localhost:3000/contas/transacoes/sacar`
+`http://localhost:3000/transacoes/sacar`
 
 No body da requisição deverão ser informados o número da conta, o valor e a senha, no formato JSON, conforme exemplo abaixo:
 
@@ -97,7 +97,7 @@ No body da requisição deverão ser informados o número da conta, o valor e a 
 
 #### 7. Transferir valores entre contas bancárias
 
-`http://localhost:3000/contas/transacoes/transferir`
+`http://localhost:3000/transacoes/transferir`
 
 No body da requisição deverão ser informados o número das contas de origem e destino, o valor e a senha, no formato JSON, conforme exemplo abaixo:
 
